@@ -1,0 +1,68 @@
+input{
+    height: 44px; width: 434px; font-size: larger; background-color: aliceblue; border-color: aliceblue;
+}
+.navbar{
+    display: flex; border-bottom-style: ridge;
+}
+
+.nav1{
+     margin: 0px 0px 0px 100px
+}
+.nav2{
+    margin:2px 8px 0px 100px; 
+}
+a{
+    text-decoration: none; font-size: 12px;
+}
+.basket{
+    display: flex;
+}
+.baket1{
+    margin: 0px 0px 0px 50px;
+}
+.foot{
+    display: flex; background-color: #212121;; align-items: center; justify-content: space-evenly;
+  
+}
+.foot1{
+    font-size: 12px; padding: 32px; color: brown;
+}
+p{
+    color: aliceblue;
+}
+.endfoot{
+    display: flex; justify-content: space-between; background-color: #212121;
+}
+span{
+    color: azure;
+}
+.colum{
+    display: flex; justify-content: space-around;
+}
+.col1{
+    -webkit-user-modify: read-write-plaintext-only;
+    border: solid;
+    border-color: black;
+    text-align: center
+}
+@keyframes couranimate{
+    from{
+        transform: translateX(50px);
+    }
+    to{
+        transform: translateY(50px);
+    }
+}
+.carousel-item{
+    /* animation-name: couranimate;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse; */
+  transform: all;
+}
+.carousel-item.active{
+    
+    transform: inherit;
+}
